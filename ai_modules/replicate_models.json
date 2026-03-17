@@ -1,1 +1,28 @@
-
+[
+  {
+    "command": "/fluxedit",
+    "model": "black-forest-labs/flux-fill-pro",
+    "version": "latest",  // 或具体version hash，从replicate.com模型页复制
+    "input_types": ["photo", "text"],
+    "description": "Flux Fill Pro - 编辑图片（改水印文字）",
+    "default_params": {
+      "num_inference_steps": 28,
+      "guidance_scale": 3.5
+    },
+    "prompt_extension": "",
+    "short_params": {
+      "no": "negative_prompt"
+    }
+  },
+  {
+    "command": "/fluxdev",
+    "model": "black-forest-labs/flux-fill-dev",
+    "version": "latest",
+    "input_types": ["photo", "text"],
+    "description": "Flux Fill Dev - 便宜版编辑",
+    "default_params": {
+      "num_inference_steps": 28,
+      "guidance_scale": 3.5
+    }
+  }
+]
