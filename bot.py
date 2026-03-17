@@ -13,5 +13,6 @@ if dev_mode:
 
 
 executor.start_polling(dp, skip_updates=True, on_startup=on_startup)
-
+export TELEGRAM_BOT_API_TOKEN="8594216185:AAF4_o5wZdNNioVVbdRvO3Ee3Wn6gXG9NJ8"
+export REPLICATE_API_TOKEN="你的r8_002s5xIvy7Thw6CsSgbF9Zn4rAuwsOx2QoHeb"
 
